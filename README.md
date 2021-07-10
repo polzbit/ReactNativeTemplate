@@ -5,6 +5,7 @@ React native jsx template for clean and quick start.
 
 ## Features
 
+*	Preloader
 *	Menu Drawer
 *	Screens Stacks
 *	Tabs for screens stacks
