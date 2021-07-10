@@ -1,7 +1,7 @@
 # React Native Template
 
 ## Overview
-React native jsx template for clean and quick start. \
+React native jsx template for clean and quick start. /
 
 ## Features
 
