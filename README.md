@@ -22,7 +22,7 @@ React native jsx template for clean and quick start. \
 
 Clone porject using:
 
-### `git clone `
+### `git clone https://github.com/polzbit/ReactNativeTemplate.git`
 
 `cd` to project folder 
 
