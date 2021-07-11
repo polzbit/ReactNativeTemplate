@@ -1,7 +1,7 @@
 
 import React, {useState, useEffect}from 'react';
-import { View, StyleSheet } from "react-native";
-import AppDrawer from "./src/navigator/AppDrawer";
+import { StyleSheet, SafeAreaView } from "react-native";
+import AppTabs from "./src/navigator/AppTabs";
 import PreLoader from './src/components/Preloader';
 
 const App = () => {
@@ -14,17 +14,17 @@ const App = () => {
 			setState(prevState => ({
                 ...prevState, 
                 loading: false,}));
-			}, 4000)
+			}, 1000)
 	});
   
   return (
-    <View style={styles.App}>
+    <SafeAreaView style={styles.App}>
       {state.loading ?
         <PreLoader preLoaderVisible={state.loading} />
       :
-      <AppDrawer />
+        <AppTabs />
       }
-    </View>
+    </SafeAreaView>
   );
 };
 
