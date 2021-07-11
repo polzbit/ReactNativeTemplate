@@ -2,7 +2,7 @@
 import React, {useState, useEffect}from 'react';
 import { StyleSheet  } from "react-native";
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import AppTabs from "./src/navigator/AppTabs";
+import AppDrawer from "./src/navigator/AppDrawer";
 import PreLoader from './src/components/Preloader';
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
       {state.loading ?
         <PreLoader preLoaderVisible={state.loading} />
       :
-        <AppTabs />
+        <AppDrawer />
       }
     </SafeAreaProvider >
   );
